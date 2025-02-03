@@ -1,0 +1,41 @@
+.form{
+    display: grid; /*чтобы можно было задать расстояние между строками*/
+    gap: 30px;
+}
+
+
+.label{
+    display: block; /*чтобы блоки стояли четко друг под другом(иначе полоса находится не на том месте)*/
+    font-weight: 700px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input{
+    width: 100%;
+    display: block;
+    padding: 5px 0 9.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 200;
+}
+
+.textarea{
+    resize: vertical;  /*чтобы textarea могло меняться только по вертикали*/
+
+    display: block;
+    width: 100%;
+    height: 157px;
+    padding: 5px 0 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.textarea:focus{
+    outline: none;
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*base*/
+@import "./base/reset.css";/*подключили другие css стили, чтобы в index прикрепить только main*/
+@import "./base/base.css";
+
+
+/*blocks*/
+@import "./blocks/header.css";
+@import "./blocks/section.css";
+@import "./blocks/card-tainer.css";
+@import "./blocks/beast.css";
+@import "./blocks/button.css";
+@import "./blocks/section-groups.css";
+@import "./blocks/contacts.css";
+@import "./blocks/form.css";
+@import "./blocks/footer.css";

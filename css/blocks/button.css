@@ -1,0 +1,26 @@
+.button{
+    display: inline-block; /*cсылка=inline элемент, поэтому прописали inline-block(иначе margin работать не будет )*/
+    border-radius: 7px;
+    background-color: var(--accent);
+    color: black;
+    font-size: 19px;
+    font-family: var(--font-accent);
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    line-height: 1;
+    
+    transition: 0.2s all ease-in;
+
+
+
+    /* padding: 18px 46px 15px 47px; */
+    padding: 18px clamp(0.938rem, 0.256rem + 3.41vw, 2.813rem) 15px;
+}
+
+
+.button:hover{
+    background-color: #f2bf52;
+    color: #000;
+}
+
+

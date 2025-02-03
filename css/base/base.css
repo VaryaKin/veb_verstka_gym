@@ -1,0 +1,49 @@
+:root{ /* root значит, что мы создаем переменные на самом верхнем корневом уровне*/
+    --accent: #FFD479; /*сздали перемненную, в которую занесли цвет   (accent(название переменной))*/
+
+
+    --font-base: "Roboto", sans-serif; /*переменная с базовым шрифтом*/
+
+    --font-accent: "Bebas Neue", sans-serif; /*переменная с акцентным шрифтом*/
+}
+
+
+
+body{
+    background-color:#1F2A32;
+    color: #FAFAF5;
+
+    font-family: var(--font-base); /*указали цвет, указав название переменной*/
+    font-weight: 300;
+
+
+
+
+
+    /* margin-bottom: 600px; */
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.title-1{
+    color: var(--accent);
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.container{
+    /* max-width: 1170px; */
+    max-width: 1200px; /*увеличили на 30 рх, так как есть паддинги*/
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+
